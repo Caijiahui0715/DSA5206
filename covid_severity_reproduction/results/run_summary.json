@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 23.248160099959932,
+  "images": 94,
+  "patients": 65,
+  "splits": 50,
+  "targets": 2,
+  "methods": 5,
+  "fits": 500,
+  "patient_leakage_checked_in_every_split": true,
+  "baseline_pearson_display_convention": 0,
+  "weight_sha256": "56524913dd16a906422e8d8b66a7a5c46be1d82eb7ac012d8103776f1aa68899"
+}

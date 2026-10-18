@@ -1,0 +1,10 @@
+{
+  "original_evaluate_cell_preserved_exactly": true,
+  "all_notebook_code_cells_executed": true,
+  "author_function_vs_script_metrics_verified": 2000,
+  "metric_comparison_rtol": 1e-07,
+  "metric_comparison_atol": 1e-07,
+  "independent_prediction_metric_check": "All 10 seed-1 models, MAE/MSE/R2/Pearson (constant Pearson display convention)",
+  "all_50_patient_splits_disjoint": true,
+  "figure_visual_inspection": "passed"
+}

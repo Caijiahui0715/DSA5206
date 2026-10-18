@@ -1,0 +1,58 @@
+[
+  {
+    "repository": "mlmed/covid-severity",
+    "commit": "5571e45b49bdba69161268f8bfaea90d698f9f55",
+    "path": "xray_covid_eval.ipynb",
+    "url": "https://raw.githubusercontent.com/mlmed/covid-severity/5571e45b49bdba69161268f8bfaea90d698f9f55/xray_covid_eval.ipynb",
+    "file": "covid-severity__xray_covid_eval.ipynb"
+  },
+  {
+    "repository": "mlmed/covid-severity",
+    "commit": "5571e45b49bdba69161268f8bfaea90d698f9f55",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/mlmed/covid-severity/5571e45b49bdba69161268f8bfaea90d698f9f55/README.md",
+    "file": "covid-severity__README.md"
+  },
+  {
+    "repository": "mlmed/covid-severity",
+    "commit": "5571e45b49bdba69161268f8bfaea90d698f9f55",
+    "path": "requirements.txt",
+    "url": "https://raw.githubusercontent.com/mlmed/covid-severity/5571e45b49bdba69161268f8bfaea90d698f9f55/requirements.txt",
+    "file": "covid-severity__requirements.txt"
+  },
+  {
+    "repository": "mlmed/covid-severity",
+    "commit": "5571e45b49bdba69161268f8bfaea90d698f9f55",
+    "path": "predict_severity.py",
+    "url": "https://raw.githubusercontent.com/mlmed/covid-severity/5571e45b49bdba69161268f8bfaea90d698f9f55/predict_severity.py",
+    "file": "covid-severity__predict_severity.py"
+  },
+  {
+    "repository": "mlmed/torchxrayvision",
+    "commit": "bd41a6ce24c4f69fd6e7fd6c8b263166a6bbd737",
+    "path": "torchxrayvision/models.py",
+    "url": "https://raw.githubusercontent.com/mlmed/torchxrayvision/bd41a6ce24c4f69fd6e7fd6c8b263166a6bbd737/torchxrayvision/models.py",
+    "file": "torchxrayvision__torchxrayvision__models.py"
+  },
+  {
+    "repository": "mlmed/torchxrayvision",
+    "commit": "bd41a6ce24c4f69fd6e7fd6c8b263166a6bbd737",
+    "path": "torchxrayvision/datasets.py",
+    "url": "https://raw.githubusercontent.com/mlmed/torchxrayvision/bd41a6ce24c4f69fd6e7fd6c8b263166a6bbd737/torchxrayvision/datasets.py",
+    "file": "torchxrayvision__torchxrayvision__datasets.py"
+  },
+  {
+    "repository": "ieee8023/covid-chestxray-dataset",
+    "commit": "78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+    "path": "annotations/covid-severity-scores.csv",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/78543292f8b01d5e0ed1d0e15dce71949f0657bb/annotations/covid-severity-scores.csv",
+    "file": "covid-chestxray-dataset__annotations__covid-severity-scores.csv"
+  },
+  {
+    "repository": "ieee8023/covid-chestxray-dataset",
+    "commit": "78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+    "path": "metadata.csv",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/78543292f8b01d5e0ed1d0e15dce71949f0657bb/metadata.csv",
+    "file": "covid-chestxray-dataset__metadata.csv"
+  }
+]

@@ -1,0 +1,584 @@
+[
+  {
+    "path": "data/metadata.csv",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/metadata.csv",
+    "bytes": 246404,
+    "sha256": "a705a5265a547d062c9a3a9365f91b947d156d5330389346ccff8606d66de1fb"
+  },
+  {
+    "path": "data/severity_scores.csv",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/78543292f8b01d5e0ed1d0e15dce71949f0657bb/annotations/covid-severity-scores.csv",
+    "bytes": 5162,
+    "sha256": "a26f308bc405845cebd28cdc72caa21deb734d239c0aff4e487c26949b6d86d7"
+  },
+  {
+    "path": "weights/nih-pc-chex-mimic_ch-google-openi-kaggle-densenet121-d121-tw-lr001-rot45-tr15-sc15-seed0-best.pt",
+    "url": "https://github.com/mlmed/torchxrayvision/releases/download/v1/nih-pc-chex-mimic_ch-google-openi-kaggle-densenet121-d121-tw-lr001-rot45-tr15-sc15-seed0-best.pt",
+    "bytes": 28382008,
+    "sha256": "56524913dd16a906422e8d8b66a7a5c46be1d82eb7ac012d8103776f1aa68899"
+  },
+  {
+    "path": "data/images/01E392EE-69F9-4E33-BFCE-E5C968654078.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/01E392EE-69F9-4E33-BFCE-E5C968654078.jpeg",
+    "bytes": 367441,
+    "sha256": "e63182002f41650c9d6a9f48614e820f3c713f65ae97599a1a29c0d82115042a"
+  },
+  {
+    "path": "data/images/03BF7561-A9BA-4C3C-B8A0-D3E585F73F3C.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/03BF7561-A9BA-4C3C-B8A0-D3E585F73F3C.jpeg",
+    "bytes": 312368,
+    "sha256": "feed428fb064125ad7991cf56092c2b7fc6da7d8724d7f4d5d543a65a0824be6"
+  },
+  {
+    "path": "data/images/1-s2.0-S0140673620303706-fx1_lrg.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S0140673620303706-fx1_lrg.jpg",
+    "bytes": 813392,
+    "sha256": "3bdbfab13ff3cf1778d04ae7f4950f333d99800f77585aa22c8a655acc5a6b22"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300608-main.pdf-001.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300608-main.pdf-001.jpg",
+    "bytes": 13456,
+    "sha256": "d6d1acd58043db5c5a2611d03dcf42db0ade89fd2e56a228a2e478fc717782f6"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300608-main.pdf-002.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300608-main.pdf-002.jpg",
+    "bytes": 18001,
+    "sha256": "53f23bd0a480198b032b69e53c7a5a7d5551e51f7aeb5fd923193310ea06c034"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300682-main.pdf-002-a1.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300682-main.pdf-002-a1.png",
+    "bytes": 132410,
+    "sha256": "7265e075cb4966281bd925e908ea72643f4589a4890b4c40ba8c4cc88d2e21f9"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300682-main.pdf-002-a2.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300682-main.pdf-002-a2.png",
+    "bytes": 148463,
+    "sha256": "3b6af5806033342c69e4292f0d9d27d89cdb563006480f34ec714298576a9f75"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300682-main.pdf-003-b1.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300682-main.pdf-003-b1.png",
+    "bytes": 149985,
+    "sha256": "185e3e31abb7909e66609b21f72f1b27e5fe2d51c6146aa1b27a7d9d17ed3b59"
+  },
+  {
+    "path": "data/images/1-s2.0-S1684118220300682-main.pdf-003-b2.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1-s2.0-S1684118220300682-main.pdf-003-b2.png",
+    "bytes": 164180,
+    "sha256": "e8ff8bf5842d4cecdfbe4088d96da49951184ff9b4ac1ebd4afe64a969fb5485"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1a.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1a.png",
+    "bytes": 203467,
+    "sha256": "5242375f9c3d5eb8e0a1d45a01dc704c6e5a4e11285f6303d97c1e5d415f3848"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1b.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1b.png",
+    "bytes": 206945,
+    "sha256": "1acd883f260fbe98807d2a75cfb1f120b703f127946d6eebe2a08d0378c2e26b"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2a.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2a.png",
+    "bytes": 195974,
+    "sha256": "e6b6284e88287b12da2cf21ff398d215f812391db5e604a0b6bd24b7cc75357f"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2b.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2b.png",
+    "bytes": 164441,
+    "sha256": "f6d57c8def0aeea99043f8cffb5136c98ee40ba6992e4cfb9e403c50dc1c8cd9"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3a.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3a.png",
+    "bytes": 185876,
+    "sha256": "96089aba5a447614a153100085c1ebd508dae3e796542591489f10b611e65e12"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3b.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3b.png",
+    "bytes": 187139,
+    "sha256": "2ad245ab5e065e32ff8072133cfb1b7e3a6b3e6396cc0fdb9854c1c42b582226"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4a.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4a.png",
+    "bytes": 194244,
+    "sha256": "15864ed6ed5d2dfb41e2fb8530116a48229ddf71d553c51e4be50870291ddcd7"
+  },
+  {
+    "path": "data/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4b.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4b.png",
+    "bytes": 205805,
+    "sha256": "b019db24c0e7f06ae35e8bca871e1457a25db618dff8b7cba490feaa23f75bfa"
+  },
+  {
+    "path": "data/images/1312A392-67A3-4EBF-9319-810CF6DA5EF6.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1312A392-67A3-4EBF-9319-810CF6DA5EF6.jpeg",
+    "bytes": 309985,
+    "sha256": "b45c31a7461306cadb29f0162e358e3a38be36ffb4b3a4affe78f6df3d9718fc"
+  },
+  {
+    "path": "data/images/1B734A89-A1BF-49A8-A1D3-66FAFA4FAC5D.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/1B734A89-A1BF-49A8-A1D3-66FAFA4FAC5D.jpeg",
+    "bytes": 276007,
+    "sha256": "487e13b22928aa70c89aa6b539de9856592ec9f0123054f2cac41a7e4bbc2a17"
+  },
+  {
+    "path": "data/images/23E99E2E-447C-46E5-8EB2-D35D12473C39.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/23E99E2E-447C-46E5-8EB2-D35D12473C39.png",
+    "bytes": 1834923,
+    "sha256": "23b1bd0c1fc370213b08f8dd18c0e391aea312daca891da52af9a79ce524403a"
+  },
+  {
+    "path": "data/images/2966893D-5DDF-4B68-9E2B-4979D5956C8E.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/2966893D-5DDF-4B68-9E2B-4979D5956C8E.jpeg",
+    "bytes": 218985,
+    "sha256": "8d636fac1dde6d0eee37409cdb21ee726a638a60125837a47565d04c9046c2ee"
+  },
+  {
+    "path": "data/images/2C26F453-AF3B-4517-BB9E-802CF2179543.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/2C26F453-AF3B-4517-BB9E-802CF2179543.jpeg",
+    "bytes": 680003,
+    "sha256": "d92660347de6c5c4bd5285177f31d370cb59cb93358119433d96b5982eca19cd"
+  },
+  {
+    "path": "data/images/31BA3780-2323-493F-8AED-62081B9C383B.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/31BA3780-2323-493F-8AED-62081B9C383B.jpeg",
+    "bytes": 82913,
+    "sha256": "db42364c86f8257b435973dd5c7175267132443281782245e8aa1a5f2ae5ce0f"
+  },
+  {
+    "path": "data/images/353889E0-A1E8-4F9E-A0B8-F24F36BCFBFB.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/353889E0-A1E8-4F9E-A0B8-F24F36BCFBFB.jpeg",
+    "bytes": 1665326,
+    "sha256": "70c0657aea83eb3b2ff1b59bd9aaed07351c8eb9b34a4dede5cbf5d7ea9278a4"
+  },
+  {
+    "path": "data/images/41591_2020_819_Fig1_HTML.webp-day10.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/41591_2020_819_Fig1_HTML.webp-day10.png",
+    "bytes": 54072,
+    "sha256": "3fde12107816fe5adf95ee94c8d29b4049a30635ca7205315a8a1380cce54d23"
+  },
+  {
+    "path": "data/images/41591_2020_819_Fig1_HTML.webp-day5.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/41591_2020_819_Fig1_HTML.webp-day5.png",
+    "bytes": 56380,
+    "sha256": "cb3a1b8e176a0f0e5d71f05b19fa1902a3e65271503724d2d7e99bb0185341d7"
+  },
+  {
+    "path": "data/images/53EC07C9-5CC6-4BE4-9B6F-D7B0D72AAA7E.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/53EC07C9-5CC6-4BE4-9B6F-D7B0D72AAA7E.jpeg",
+    "bytes": 227594,
+    "sha256": "78e5c9d0ebe6b15757555019642415acceadbc4db109c549e05dc313f6c11bb9"
+  },
+  {
+    "path": "data/images/58cb9263f16e94305c730685358e4e_jumbo.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/58cb9263f16e94305c730685358e4e_jumbo.jpeg",
+    "bytes": 107875,
+    "sha256": "676aa83327566613b0e558174525bd4f02b0892c89f9594e9c0185b73babf0db"
+  },
+  {
+    "path": "data/images/6b44464d-73a7-4cf3-bbb6-ffe7168300e3.annot.original.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/6b44464d-73a7-4cf3-bbb6-ffe7168300e3.annot.original.jpeg",
+    "bytes": 125332,
+    "sha256": "daa96f3fb897e30897ec4f592d87b58f4599fa021d12736473907b72b726da44"
+  },
+  {
+    "path": "data/images/6C94A287-C059-46A0-8600-AFB95F4727B7.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/6C94A287-C059-46A0-8600-AFB95F4727B7.jpeg",
+    "bytes": 220427,
+    "sha256": "bdb87a6043b0924a8232a5a3392fed5a5f0bf14b24e2356bb065d240e8b661ae"
+  },
+  {
+    "path": "data/images/6CB4EFC6-68FA-4CD5-940C-BEFA8DAFE9A7.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/6CB4EFC6-68FA-4CD5-940C-BEFA8DAFE9A7.jpeg",
+    "bytes": 437552,
+    "sha256": "a61daa3f34f7dc1c28d4623a261987240ae9ad81f1fc8d651e82b0eeb250cdcb"
+  },
+  {
+    "path": "data/images/7AF6C1AF-D249-4BD2-8C26-449304105D03.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/7AF6C1AF-D249-4BD2-8C26-449304105D03.jpeg",
+    "bytes": 350350,
+    "sha256": "dfbcd1a4d39a28c8c031eefec11631d4c5e0491accb0d8e904fac2f11c723849"
+  },
+  {
+    "path": "data/images/7C69C012-7479-493F-8722-ABC29C60A2DD.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/7C69C012-7479-493F-8722-ABC29C60A2DD.jpeg",
+    "bytes": 256553,
+    "sha256": "456c3f26986f5304dc533b790715727940d6d3608c6bee5bfb3dfbcccc47bbd7"
+  },
+  {
+    "path": "data/images/80446565-E090-4187-A031-9D3CEAA586C8.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/80446565-E090-4187-A031-9D3CEAA586C8.jpeg",
+    "bytes": 103490,
+    "sha256": "c1a035a534dbc211921a239baa43e866ab441fec4cb519d73c853953151beea2"
+  },
+  {
+    "path": "data/images/85E52EB3-56E9-4D67-82DA-DEA247C82886.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/85E52EB3-56E9-4D67-82DA-DEA247C82886.jpeg",
+    "bytes": 398013,
+    "sha256": "8b99f71d7c10171d7cef7c5e204183a12b12d8207a2cb50a1ccabec6b65ef4a3"
+  },
+  {
+    "path": "data/images/8FDE8DBA-CFBD-4B4C-B1A4-6F36A93B7E87.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/8FDE8DBA-CFBD-4B4C-B1A4-6F36A93B7E87.jpeg",
+    "bytes": 130303,
+    "sha256": "c871a90a609a757044532d013d2f233b98ebb474d87034e4367de1c6e6619e48"
+  },
+  {
+    "path": "data/images/93FE0BB1-022D-4F24-9727-987A07975FFB.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/93FE0BB1-022D-4F24-9727-987A07975FFB.jpeg",
+    "bytes": 559748,
+    "sha256": "04c622d1e29d319fbc4b710f07d6beb88b3d2319e3eaebf5620bf2c041347749"
+  },
+  {
+    "path": "data/images/9C34AF49-E589-44D5-92D3-168B3B04E4A6.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/9C34AF49-E589-44D5-92D3-168B3B04E4A6.jpeg",
+    "bytes": 141075,
+    "sha256": "1d23f9b648f8b6629aadbd8a408fb8b923bbd0f65b791621a843107b82dde444"
+  },
+  {
+    "path": "data/images/9fdd3c3032296fd04d2cad5d9070d4_jumbo.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/9fdd3c3032296fd04d2cad5d9070d4_jumbo.jpeg",
+    "bytes": 115533,
+    "sha256": "6b925dc2662539fe89c8259c25096a6789fad6d4a021c82070c0cb73636253ef"
+  },
+  {
+    "path": "data/images/all14238-fig-0001-m-b.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/all14238-fig-0001-m-b.jpg",
+    "bytes": 67998,
+    "sha256": "4ee0dc3abb906330557ece6618bdc6f5a4282d2160f89a6b184b98ef0173ad8a"
+  },
+  {
+    "path": "data/images/all14238-fig-0001-m-c.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/all14238-fig-0001-m-c.jpg",
+    "bytes": 66862,
+    "sha256": "814fb09c1bd890825535c77f35a14b3e06fc63f6e5d1e18909bd31b69e2cdb50"
+  },
+  {
+    "path": "data/images/auntminnie-a-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/auntminnie-a-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "bytes": 134512,
+    "sha256": "9d9194336e3d6152ff348289a711e37eebf6444e9e166472ba5fcef36a485f9d"
+  },
+  {
+    "path": "data/images/auntminnie-b-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/auntminnie-b-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "bytes": 130226,
+    "sha256": "0fe57e490c7e52623c42cac6f64ecf8a83d1a6d26cd855bc2db04820b9eeda13"
+  },
+  {
+    "path": "data/images/auntminnie-c-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/auntminnie-c-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "bytes": 131169,
+    "sha256": "d4441e030c9882f4ff1bb321ac26e12a402efa4b36b0680d6c9da97480fabd71"
+  },
+  {
+    "path": "data/images/auntminnie-d-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/auntminnie-d-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg",
+    "bytes": 117814,
+    "sha256": "d1a5232758000c3e1d5379c6dbc6149ba5c62be1f571354ae4c4183ea98f3c3c"
+  },
+  {
+    "path": "data/images/B2D20576-00B7-4519-A415-72DE29C90C34.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/B2D20576-00B7-4519-A415-72DE29C90C34.jpeg",
+    "bytes": 253255,
+    "sha256": "dd654014ec8f13fdd2014c317e6ff05669143385ebffffd3737776bf78ccb84a"
+  },
+  {
+    "path": "data/images/CD50BA96-6982-4C80-AE7B-5F67ACDBFA56.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/CD50BA96-6982-4C80-AE7B-5F67ACDBFA56.jpeg",
+    "bytes": 393708,
+    "sha256": "7154ed7ed39436372c9ad34c16032891afc7820d93e5e238a158b2d77c2dfa57"
+  },
+  {
+    "path": "data/images/ciaa199.pdf-001-a.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ciaa199.pdf-001-a.png",
+    "bytes": 124765,
+    "sha256": "91033ebb6b51f9083ed4d6a336394d3b1855105792ecc00a17802198d7f962b3"
+  },
+  {
+    "path": "data/images/ciaa199.pdf-001-b.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ciaa199.pdf-001-b.png",
+    "bytes": 121019,
+    "sha256": "23e39e9753aa7fc6eebfef90a1a5330ca8ea02716a4faaf3abfd7aed05274871"
+  },
+  {
+    "path": "data/images/ciaa199.pdf-001-c.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ciaa199.pdf-001-c.png",
+    "bytes": 111805,
+    "sha256": "a8056ecbd8df9804c25f60df621c88000605161052d21d6ad89183cbf6bc3097"
+  },
+  {
+    "path": "data/images/covid-19-infection-exclusive-gastrointestinal-symptoms-pa.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-infection-exclusive-gastrointestinal-symptoms-pa.png",
+    "bytes": 1486277,
+    "sha256": "7dc29433c83b46c056567e72f0e5b1ef3b8667fef57f60fe683025331cb1f79a"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-12.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-12.jpg",
+    "bytes": 2475821,
+    "sha256": "09e0483a0391aa8cd20a9ba3135ccdb2306de2bc278c349699503956f77b7b21"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-14-PA.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-14-PA.png",
+    "bytes": 4799182,
+    "sha256": "65c45bc630be4ed36d9ee1417c0742e1281ba8d12ffec7f15c75fccfc9dbab13"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-15-PA.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-15-PA.jpg",
+    "bytes": 1353580,
+    "sha256": "0ffc08867ba21be74f81278e3e7f3334dc31503395529f27da52aa164ae421db"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-19.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-19.jpg",
+    "bytes": 165219,
+    "sha256": "8c0a74261e95657cfc06c64dde5ff15984af99360178a29030865695ef51cab1"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-2.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-2.jpg",
+    "bytes": 271975,
+    "sha256": "d2a1725ee3a8adc64a6f02de355ca7bf9cd7d83760ea8c5cdea58301c0b4d0a9"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-28.png",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-28.png",
+    "bytes": 533471,
+    "sha256": "a4a7ad57600854d6c375e7a4e9a8270d7f7825f9fc78d21c5696223154a81136"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-30-PA.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-30-PA.jpg",
+    "bytes": 896012,
+    "sha256": "e4e464f2921f0ed9c7010d057014c733e66b47281c69350b5440b8828146028d"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-7-PA.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-7-PA.jpg",
+    "bytes": 905790,
+    "sha256": "99fc2e017e756a87955f40bd3d1643ee5f07568a0f442deb7e6ab73f6aa6fec8"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-evolution-over-a-week-1-day0-PA.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-evolution-over-a-week-1-day0-PA.jpg",
+    "bytes": 31881,
+    "sha256": "94429b2865619aeab75e668ccca68db57530ebadf53e1c46bbd45591083bed5d"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-rapidly-progressive-12-hours.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-rapidly-progressive-12-hours.jpg",
+    "bytes": 108067,
+    "sha256": "fae5bedd6f7c6c942bcf54364ebd996febe00dea90bddf0292986d3febd0951f"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-rapidly-progressive-3-days.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-rapidly-progressive-3-days.jpg",
+    "bytes": 133524,
+    "sha256": "37ddd999985bbba9711be540f1eaea64fe31e1756d4dda4c81639bea8ee1a6e8"
+  },
+  {
+    "path": "data/images/covid-19-pneumonia-rapidly-progressive-admission.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-pneumonia-rapidly-progressive-admission.jpg",
+    "bytes": 143435,
+    "sha256": "bb680f124bc2e8e3826a9768f13c99c4ed52c41a82db67dfc9f03b02245bfa1d"
+  },
+  {
+    "path": "data/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-admission.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-admission.jpg",
+    "bytes": 82440,
+    "sha256": "c791c6151cca1729fc38bbe08d2673aebfd9401717c8392c1569d06c826b4a60"
+  },
+  {
+    "path": "data/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-1.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-1.jpg",
+    "bytes": 80049,
+    "sha256": "70e0e28de5d91c3c170d8dfdc4ff268d6a5ee36a7c723cf5146b3f484fa889aa"
+  },
+  {
+    "path": "data/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-2.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-2.jpg",
+    "bytes": 88046,
+    "sha256": "f36719d86d1c647eb6199ed91ab2150ca7ddceade868f0b22a842a72e4485dce"
+  },
+  {
+    "path": "data/images/E63574A7-4188-4C8D-8D17-9D67A18A1AFA.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/E63574A7-4188-4C8D-8D17-9D67A18A1AFA.jpeg",
+    "bytes": 234188,
+    "sha256": "9f43d7fb945f4a62ca9e8c03f930600d3d31370dc60adc12c1b606209e73035f"
+  },
+  {
+    "path": "data/images/F2DE909F-E19C-4900-92F5-8F435B031AC6.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/F2DE909F-E19C-4900-92F5-8F435B031AC6.jpeg",
+    "bytes": 86460,
+    "sha256": "7d68fcce652c687f2caf826aa70a4932a55bff67ad1ef444c303244126c375c7"
+  },
+  {
+    "path": "data/images/F4341CE7-73C9-45C6-99C8-8567A5484B63.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/F4341CE7-73C9-45C6-99C8-8567A5484B63.jpeg",
+    "bytes": 326863,
+    "sha256": "a17ac7746c2a1ef76b51fc4c2460d1f5e7b9679d1e9ea382ccf9ad5208dadc4d"
+  },
+  {
+    "path": "data/images/F63AB6CE-1968-4154-A70F-913AF154F53D.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/F63AB6CE-1968-4154-A70F-913AF154F53D.jpeg",
+    "bytes": 576082,
+    "sha256": "5526c3e447d4b0d4704ef5ca0b36f16f7b0b78b1412b27189ff3e3a7cda9ef02"
+  },
+  {
+    "path": "data/images/FE9F9A5D-2830-46F9-851B-1FF4534959BE.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/FE9F9A5D-2830-46F9-851B-1FF4534959BE.jpeg",
+    "bytes": 146784,
+    "sha256": "c4c264aa2370d7575c16026cc240e953427bfe33359406933db12f0a8e00f19b"
+  },
+  {
+    "path": "data/images/figure1-5e71be566aa8714a04de3386-98-left.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/figure1-5e71be566aa8714a04de3386-98-left.jpeg",
+    "bytes": 689401,
+    "sha256": "e0459a273e41016f4e1437891005efac04ba3381911c98cd78c1f7c66f9214b9"
+  },
+  {
+    "path": "data/images/figure1-5e75d0940b71e1b702629659-98-right.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/figure1-5e75d0940b71e1b702629659-98-right.jpeg",
+    "bytes": 363730,
+    "sha256": "9e9c44e8c012daac3440432f8e300b2495937c7e6aff00cc756df1d595880a81"
+  },
+  {
+    "path": "data/images/gr1_lrg-a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/gr1_lrg-a.jpg",
+    "bytes": 60280,
+    "sha256": "05284a5d8846089eb7aa32dbedd96c69f304996f9f16d503e945f3f7939b72bb"
+  },
+  {
+    "path": "data/images/gr1_lrg-b.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/gr1_lrg-b.jpg",
+    "bytes": 69440,
+    "sha256": "04819091c13ce8855aab96fd9e8779d5661bd0e43b998c024fc92f4cf0f8c630"
+  },
+  {
+    "path": "data/images/kjr-21-e24-g001-l-a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/kjr-21-e24-g001-l-a.jpg",
+    "bytes": 47531,
+    "sha256": "dc0ca8cb627693089c11adb1d5d0b2bb2736455778aafbb796f88ab218eb2275"
+  },
+  {
+    "path": "data/images/kjr-21-e24-g002-l-a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/kjr-21-e24-g002-l-a.jpg",
+    "bytes": 52327,
+    "sha256": "31e9cc1a7e878348250eefe10f917992b16e12013df25b5bc226c188d8c54cd7"
+  },
+  {
+    "path": "data/images/kjr-21-e24-g003-l-a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/kjr-21-e24-g003-l-a.jpg",
+    "bytes": 108962,
+    "sha256": "bd084d7f2aa83e01a8d8c47e9de6b1e9393da26003c790c1217635d18ed286cd"
+  },
+  {
+    "path": "data/images/kjr-21-e25-g001-l-a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/kjr-21-e25-g001-l-a.jpg",
+    "bytes": 78152,
+    "sha256": "81efbbd4f54f1f28bf64482327aec926c880e822d50f8d2e42b928df8306564b"
+  },
+  {
+    "path": "data/images/lancet-case2a.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/lancet-case2a.jpg",
+    "bytes": 228947,
+    "sha256": "ea8d33e09a382cf4d3f3644af8a19466c0f205b19bacb556b5f45d594e9f5cdf"
+  },
+  {
+    "path": "data/images/lancet-case2b.jpg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/lancet-case2b.jpg",
+    "bytes": 344665,
+    "sha256": "bd42f22077bfe5c92e379969c529041ec254714356d254733ee4043420633662"
+  },
+  {
+    "path": "data/images/nCoV-radiol.2020200269.fig1-day7.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nCoV-radiol.2020200269.fig1-day7.jpeg",
+    "bytes": 67189,
+    "sha256": "fbba7654b60f4e7d36f675ea81a2fafbd43b77e8968700bf3c43cca30d94c40a"
+  },
+  {
+    "path": "data/images/nejmc2001573_f1a.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmc2001573_f1a.jpeg",
+    "bytes": 233821,
+    "sha256": "d00f286a259594a2593ec74d7d12c5e93db9c3b28cc97a5306fec511c1e4d7e3"
+  },
+  {
+    "path": "data/images/nejmc2001573_f1b.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmc2001573_f1b.jpeg",
+    "bytes": 320560,
+    "sha256": "97cecca9ddb82be548ff374ad7113a68340f8c5eaa0914f1cf8aa9a810003aaa"
+  },
+  {
+    "path": "data/images/nejmoa2001191_f1-PA.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmoa2001191_f1-PA.jpeg",
+    "bytes": 193431,
+    "sha256": "bb44d5415706296cb711b637491e79208685c869dea12efd243c50043e910a8f"
+  },
+  {
+    "path": "data/images/nejmoa2001191_f3-PA.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmoa2001191_f3-PA.jpeg",
+    "bytes": 179575,
+    "sha256": "19b84427356e72a2130650b691a0a1c9fa34250cb623d6655f642a32fe25c173"
+  },
+  {
+    "path": "data/images/nejmoa2001191_f4.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmoa2001191_f4.jpeg",
+    "bytes": 421668,
+    "sha256": "5534132a16286b2a7eee38a97e0fc69a2a4d26a809910bf2a571a1b12e45638e"
+  },
+  {
+    "path": "data/images/nejmoa2001191_f5-PA.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/nejmoa2001191_f5-PA.jpeg",
+    "bytes": 176601,
+    "sha256": "52adcdac1dd03fe335148885cc7203876105974a4297d2825334748ae4358aa1"
+  },
+  {
+    "path": "data/images/radiol.2020200490.fig3.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/radiol.2020200490.fig3.jpeg",
+    "bytes": 218598,
+    "sha256": "6eb721f60cf7d70ca55beebb2596dd43cb47fe38e3b5d18bf0290f45a99cad97"
+  },
+  {
+    "path": "data/images/ryct.2020200028.fig1a.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ryct.2020200028.fig1a.jpeg",
+    "bytes": 1927296,
+    "sha256": "3c176b54f4d36bcf57bf36a4c0e6909a5f1170fd25a777360edb82333280c068"
+  },
+  {
+    "path": "data/images/ryct.2020200034.fig2.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ryct.2020200034.fig2.jpeg",
+    "bytes": 353973,
+    "sha256": "9b56f44d3846e4919d882239491c8f3032a707e304f26a53565a4a3c2a0b78c0"
+  },
+  {
+    "path": "data/images/ryct.2020200034.fig5-day0.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ryct.2020200034.fig5-day0.jpeg",
+    "bytes": 139568,
+    "sha256": "8e6a7340098475a81fa7d13e99ec29fa399ff51c7684af377ba6418c0c176581"
+  },
+  {
+    "path": "data/images/ryct.2020200034.fig5-day4.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ryct.2020200034.fig5-day4.jpeg",
+    "bytes": 194084,
+    "sha256": "17419b8e04fd73c32831420bbdd9a297dda46f506b496b9f57cf1d7ab0dddac7"
+  },
+  {
+    "path": "data/images/ryct.2020200034.fig5-day7.jpeg",
+    "url": "https://raw.githubusercontent.com/ieee8023/covid-chestxray-dataset/d929fa7ba8ded7aa5233cbd23b7685f3677592db/images/ryct.2020200034.fig5-day7.jpeg",
+    "bytes": 191728,
+    "sha256": "b6cf822fcaac584ca79dbb5b185c7acb57824c79f04f915fbcb69d27f273e078"
+  }
+]

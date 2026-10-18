@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu",
+    "torchxrayvision": "1.4.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.3.2",
+    "scikit-image": "0.24.0",
+    "matplotlib": "3.9.4",
+    "pillow": "12.3.0"
+  },
+  "code_commit": "5571e45b49bdba69161268f8bfaea90d698f9f55",
+  "data_commit": "d929fa7ba8ded7aa5233cbd23b7685f3677592db",
+  "score_commit": "78543292f8b01d5e0ed1d0e15dce71949f0657bb"
+}

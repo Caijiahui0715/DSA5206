@@ -1,0 +1,10 @@
+{
+  "snapshot_commit": "d929fa7ba8ded7aa5233cbd23b7685f3677592db",
+  "snapshot_PA_count": 199,
+  "annotated_images": 94,
+  "unique_patients": 65,
+  "patient_id_dtype": "int64",
+  "missing_scores_or_images": 0,
+  "all_views_PA_in_historical_metadata": true,
+  "note": "Historical snapshot chosen to match the saved notebook's 199 PA / 94 scored images; author did not pin an exact data commit. Later metadata revises 11 scored views, removes one scored image and changes inferred patient ID dtype; IDs of the 93 common images are unchanged."
+}
