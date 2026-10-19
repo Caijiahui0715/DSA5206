@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.7.1+cpu",
+      "transformers": "4.57.6",
+      "open_clip_torch": "2.23.0",
+      "timm": "1.0.30",
+      "numpy": "1.26.4",
+      "pillow": "12.3.0"
+    }
+  },
+  "cohort_sha256": "e1bd5feb1e4758b7c30aaad7c7b3873787c83db9ec8521bfb782b15fb37f9334",
+  "biomedclip": {
+    "model_id": "hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+    "file": "results/part2_features/features_biomedclip.npz",
+    "shape": [
+      94,
+      512
+    ],
+    "seconds": 34.8,
+    "sha256": "30cdd10fc33f10988a364aa4e545c672adb7d56269ca202a16ab18c5e6f5fc9f"
+  },
+  "raddino": {
+    "model_id": "microsoft/rad-dino",
+    "file": "results/part2_features/features_raddino.npz",
+    "shape": [
+      94,
+      768
+    ],
+    "seconds": 114.2,
+    "sha256": "a2d5b1d5639abebf78b226c9197c7e8639ffa8419e7c2a39f5b58423f495542c"
+  },
+  "failures": {}
+}
