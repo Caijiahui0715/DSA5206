@@ -1,0 +1,105 @@
+{
+  "selection_extent": {
+    "fixed_lung_opacity_mae": 1.161,
+    "nested_cv_mae": 1.209,
+    "nested_cv_choices": {
+      "lung_opacity": 26,
+      "four_logits": 17,
+      "intermediate_features": 6,
+      "eighteen_logits": 1
+    },
+    "train_mse_choice_mae": 1.341,
+    "train_mse_choices": {
+      "intermediate_features": 50
+    },
+    "test_oracle_mae": 1.118,
+    "test_oracle_choices": {
+      "four_logits": 18,
+      "lung_opacity": 17,
+      "eighteen_logits": 9,
+      "intermediate_features": 6
+    },
+    "train_mse_1024_mean": 6.635906905561775e-12
+  },
+  "selection_opacity": {
+    "fixed_lung_opacity_mae": 0.788,
+    "nested_cv_mae": 0.807,
+    "nested_cv_choices": {
+      "lung_opacity": 29,
+      "four_logits": 17,
+      "intermediate_features": 2,
+      "eighteen_logits": 2
+    },
+    "train_mse_choice_mae": 1.012,
+    "train_mse_choices": {
+      "intermediate_features": 50
+    },
+    "test_oracle_mae": 0.744,
+    "test_oracle_choices": {
+      "four_logits": 31,
+      "eighteen_logits": 10,
+      "lung_opacity": 9
+    },
+    "train_mse_1024_mean": 2.9862923810032035e-12
+  },
+  "residual_opacity": {
+    "mean_resid_y_le_1": 0.721,
+    "mean_resid_y_gt_4": -0.866,
+    "mean_resid_by_band": {
+      "0.0": 0.919,
+      "1.0": 0.313,
+      "2.0": 0.04,
+      "3.0": -0.391,
+      "4.0": -0.609,
+      "5.0": -0.878
+    },
+    "count_by_band": {
+      "0.0": 338,
+      "1.0": 405,
+      "2.0": 591,
+      "3.0": 471,
+      "4.0": 397,
+      "5.0": 182
+    },
+    "calibration_slope_mean": 1.017,
+    "calibration_slope_sd": 0.184,
+    "out_of_range_share": 0.0382,
+    "below_0_share": 0.0285,
+    "above_max_share": 0.0096,
+    "images_ever_out_of_range": 5,
+    "mae_raw": 0.787,
+    "mae_clipped": 0.77
+  },
+  "residual_extent": {
+    "mean_resid_y_le_1": 0.857,
+    "mean_resid_y_gt_4": -1.067,
+    "mean_resid_by_band": {
+      "0.0": 0.929,
+      "1.0": 0.489,
+      "2.0": 0.779,
+      "3.0": -0.091,
+      "4.0": -0.829,
+      "5.0": -1.119,
+      "6.0": -0.979,
+      "7.0": -1.479
+    },
+    "count_by_band": {
+      "0.0": 359,
+      "1.0": 327,
+      "2.0": 411,
+      "3.0": 259,
+      "4.0": 391,
+      "5.0": 165,
+      "6.0": 206,
+      "7.0": 266
+    },
+    "calibration_slope_mean": 1.035,
+    "calibration_slope_sd": 0.186,
+    "out_of_range_share": 0.0587,
+    "below_0_share": 0.0482,
+    "above_max_share": 0.0105,
+    "images_ever_out_of_range": 11,
+    "mae_raw": 1.162,
+    "mae_clipped": 1.102
+  }
+}
