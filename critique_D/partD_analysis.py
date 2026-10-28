@@ -143,6 +143,20 @@ for ax, target in zip(axes, TARGETS):
 fig.tight_layout()
 fig.savefig(FIG / "train_vs_test_mse.png", dpi=160)
 
+# ---------- ④ 不平衡与分组表现（1 logit 模型，50 次划分合并）----------
+for target, (col, hi) in TARGETS.items():
+    band = np.floor(cohort[col]).clip(upper=hi - 1)
+    summary[f"label_bands_{target}"] = band.value_counts().sort_index().to_dict()
+groups_df = p.merge(cohort[["filename", "sex", "age"]], on="filename")
+groups_df["abs_error"] = groups_df.res.abs()
+groups_df["sex_group"] = groups_df.sex.fillna("missing")
+groups_df["age_group"] = pd.cut(groups_df.age, [0, 50, 65, 120], right=False,
+                                labels=["<50", "50-64", "65+"]).astype(str).replace("nan", "missing")
+for g in ["sex_group", "age_group"]:
+    table = groups_df.groupby([g, "target"]).abs_error.mean().unstack().round(3)
+    table["images"] = groups_df.groupby(g).filename.nunique()
+    summary[f"mae_by_{g}"] = table.to_dict("index")
+
 (OUT / "partD_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False, default=str),
                                         encoding="utf-8")
 print(json.dumps(summary, indent=2, ensure_ascii=False, default=str))
