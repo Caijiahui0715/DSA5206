@@ -1,0 +1,161 @@
+{
+  "images_by_source": {
+    "Journal article figures": 39,
+    "SIRM case reports (Italy)": 26,
+    "Radiopaedia": 18,
+    "Academy of Medicine Singapore PDF": 8,
+    "Other case-sharing sites": 3
+  },
+  "images_by_host": {
+    "www.sirm.org": 26,
+    "radiopaedia.org": 18,
+    "www.nejm.org": 10,
+    "www.ams.edu.sg": 8,
+    "www.sciencedirect.com": 7,
+    "pubs.rsna.org": 7,
+    "www.thelancet.com": 4,
+    "www.kjronline.org": 4,
+    "academic.oup.com": 3,
+    "onlinelibrary.wiley.com": 2,
+    "www.nature.com": 2,
+    "app.figure1.com": 2,
+    "cases.rsna.org": 1
+  },
+  "patients_by_source": {
+    "Academy of Medicine Singapore PDF": 4,
+    "Journal article figures": 23,
+    "Other case-sharing sites": 3,
+    "Radiopaedia": 13,
+    "SIRM case reports (Italy)": 22
+  },
+  "images_by_country": {
+    "Italy": 29,
+    "Not recorded": 19,
+    "China": 12,
+    "Spain": 11,
+    "Taiwan": 8,
+    "Vietnam": 6,
+    "USA": 4,
+    "Australia": 2,
+    "Canada": 1,
+    "Sweden": 1,
+    "Israel": 1
+  },
+  "license_field": {
+    "Not recorded": 66,
+    "CC BY-NC-SA": 22,
+    "CC BY-NC-ND": 6
+  },
+  "images_per_patient": {
+    "1": 43,
+    "2": 17,
+    "3": 3,
+    "4": 2
+  },
+  "demographics": [
+    {
+      "item": "Male / Female",
+      "paper": "44 / 36",
+      "images": "45 / 32",
+      "patients": "31 / 24"
+    },
+    {
+      "item": "Sex missing",
+      "paper": "0 (\"no missing data\")",
+      "images": 17,
+      "patients": 10
+    },
+    {
+      "item": "Age, mean ± SD",
+      "paper": "56 ± 14.8",
+      "images": "56.6 ± 15.2",
+      "patients": "57.0 ± 15.7"
+    },
+    {
+      "item": "Age missing",
+      "paper": "0",
+      "images": 25,
+      "patients": 15
+    },
+    {
+      "item": "Age (M), mean ± SD",
+      "paper": "55 ± 15.6",
+      "images": "55.2 ± 15.4",
+      "patients": "55.6 ± 16.7"
+    },
+    {
+      "item": "Age (F), mean ± SD",
+      "paper": "57 ± 13.9",
+      "images": "58.3 ± 14.9",
+      "patients": "58.7 ± 14.5"
+    }
+  ],
+  "missing_fields_images": {
+    "sex": 17,
+    "age": 25,
+    "location": 19,
+    "survival": 59,
+    "went_icu": 81,
+    "intubated": 82,
+    "offset": 16,
+    "license": 66
+  },
+  "image_short_side": {
+    "min": 237,
+    "median": 963,
+    "max": 3520,
+    "under_600px": 24,
+    "under_300px": 4
+  },
+  "image_format_mode": {
+    "JPEG RGB": 66,
+    "PNG RGBA": 20,
+    "JPEG L": 7,
+    "PNG RGB": 1
+  },
+  "short_side_median_by_source": {
+    "Academy of Medicine Singapore PDF": 527.5,
+    "Journal article figures": 750.0,
+    "Other case-sharing sites": 1516.0,
+    "Radiopaedia": 976.0,
+    "SIRM case reports (Italy)": 1386.0
+  },
+  "view_audit": {
+    "relabelled_or_removed_in_current_metadata": 12,
+    "burned_in_not_pa_but_still_pa_in_current_metadata": [
+      "01E392EE-69F9-4E33-BFCE-E5C968654078.jpeg",
+      "41591_2020_819_Fig1_HTML.webp-day10.png",
+      "7AF6C1AF-D249-4BD2-8C26-449304105D03.jpeg",
+      "ryct.2020200034.fig5-day4.jpeg",
+      "ryct.2020200034.fig5-day7.jpeg"
+    ],
+    "total_not_reliably_pa": 17
+  },
+  "mae_by_source": {
+    "Academy of Medicine Singapore PDF": {
+      "extent": 0.877,
+      "opacity": 0.556,
+      "images": 8
+    },
+    "Journal article figures": {
+      "extent": 1.11,
+      "opacity": 0.823,
+      "images": 39
+    },
+    "Other case-sharing sites": {
+      "extent": 2.542,
+      "opacity": 2.221,
+      "images": 3
+    },
+    "Radiopaedia": {
+      "extent": 1.462,
+      "opacity": 0.721,
+      "images": 18
+    },
+    "SIRM case reports (Italy)": {
+      "extent": 0.972,
+      "opacity": 0.702,
+      "images": 26
+    }
+  }
+}

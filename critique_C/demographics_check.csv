@@ -1,0 +1,7 @@
+item,paper,images,patients
+Male / Female,44 / 36,45 / 32,31 / 24
+Sex missing,"0 (""no missing data"")",17,10
+"Age, mean ± SD",56 ± 14.8,56.6 ± 15.2,57.0 ± 15.7
+Age missing,0,25,15
+"Age (M), mean ± SD",55 ± 15.6,55.2 ± 15.4,55.6 ± 16.7
+"Age (F), mean ± SD",57 ± 13.9,58.3 ± 14.9,58.7 ± 14.5
