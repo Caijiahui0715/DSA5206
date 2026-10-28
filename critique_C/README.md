@@ -7,6 +7,8 @@ cd critique_C
 python partC_analysis.py
 ```
 
+幻灯片：`DSA5206_Critique_C.pptx`（①② 共 3 页，演讲者备注里有讲稿）。
+
 输出：`partC_summary.json`、`demographics_check.csv`、`image_properties.csv`、`mae_by_source.csv`，以及 `figures/` 下的来源图、分辨率直方图和 3 张示例图。`manual_view_review.csv` 是人工逐张查看 94 张图后记录的烧录文字（与 PA/AP 判断有关的部分）。
 
 ## ① 数据收集
