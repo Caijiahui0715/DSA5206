@@ -7,7 +7,7 @@ cd critique_D
 python partD_analysis.py
 ```
 
-幻灯片：`DSA5206_Critique_D.pptx`（③④⑤ 共 4 页，演讲者备注里有讲稿）。
+幻灯片：`DSA5206_Critique_D.pptx`（③④⑤ 共 6 页，含 checklist 总览，演讲者备注里有讲稿）。
 
 输出：`partD_summary.json`、`selection_per_split.csv`、`figures/residual_calibration.png`、`figures/train_vs_test_mse.png`。
 
