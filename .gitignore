@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated outputs of the Part II alternatives scripts
+alternatives_E_ridge/results/
+alternatives_B_nonlinear/results/
