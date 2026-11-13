@@ -31,17 +31,17 @@
 
 ---
 
-## D：③ 模型选择、④ 模型训练、⑤ 模型部署（约 3 分钟）
+## D：③ 模型选择、④ 模型训练、⑤ 模型部署（约 3 分钟；全念约 3 分 10 秒，删掉“可删”部分约 2 分 40 秒）
 
 三页版式相同：左边是证据，右边依次是 Lecture 9 的问题、我们的发现（带论文页码）和结论。讲的时候先指左边的证据，最后落到右下角的 Verdict。
 
-### ③ · Model selection: only OLS, only a constant baseline（35 秒）
+### ③ · Model selection: only OLS, only a constant baseline（45 秒）
 
 > The lecture asks which models were used and whether they were compared. On the left is everything Table 1 compares. Every row is **ordinary least squares** on the same frozen DenseNet; only the input changes, from one logit to 1024 features. The only baseline is a constant that predicts the training mean. There is no regularised model, no non-linear model, no other encoder, and the error is never compared with how much the radiologists themselves disagree. That is the missing-baseline bias, so our verdict is **high concern**, and it is exactly the gap our Part II alternatives fill.
 
 可删：“never compared with how much the radiologists disagree”这一句。
 
-### ④ · Model training: feature set picked on the test set（1 分 20 秒）
+### ④ · Model training: feature set picked on the test set（1 分 30 秒）
 
 > There is no validation set. The paper says the final model was chosen by **training error**. In the table we applied that rule on the same 50 splits: it picks the 1024-feature model every time, because that model memorises the roughly 47 training images, and it has the worst test error, **1.01**. So the single-logit model the paper reports must have been picked from test results. When we choose honestly, with cross-validation inside the training set only, error rises from **0.79 to 0.81**: about **2 to 4 percent worse**. The headline survives, but it is slightly optimistic.
 >
